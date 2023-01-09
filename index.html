@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styless.css" />
+    <title>Log in</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Login</h1>
+      </div>
+      <div class="form">
+        <div class="email">
+          <h4>E-mail</h4>
+          <input
+            type="text"
+            placeholder="Enter your email address"
+            class="input"
+            id="input-text"
+          />
+        </div>
+        <div class="password">
+          <h4>Password</h4>
+          <input
+            type="password"
+            placeholder="Enter your password"
+            class="input"
+            id="input-password"
+          />
+        </div>
+        <button type="submit" class="btn" id="login" onclick="validate()">
+          Login
+        </button>
+      </div>
+      <div class="information">
+        <span>
+          <b>Note:</b>For this test use the following <br>email address and password
+          <br> <b class="valid" />Email address: micho@gmail.com<br> <b class="valid" />Password: helloword090.</span
+        ></span>
+    </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
